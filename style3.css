@@ -208,12 +208,9 @@ p{
 li{
     list-style: none;
 }
-button{
-    background-color: blue;
-    margin: 0px;
-    position: relative;
-    display: flex;
-    float: right;
+.link{
+    text-decoration: none;
+    display: inline;
 }
 @media (max-width: 1000px){
     .container{
