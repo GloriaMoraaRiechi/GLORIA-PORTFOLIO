@@ -19,7 +19,7 @@ body{
     min-height: 1000px;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 400px 1fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 
 }
@@ -108,6 +108,7 @@ body{
     color: white;
     font-weight: 200;
 }
+
 .language .percent{
     position: relative;
     width: 100%;
@@ -182,12 +183,12 @@ p{
     height: 15px;
     background-color: rgb(207, 189, 189);
 }
-.skills .percent1 div{
+.skills .box .percent1 div{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     height: 100%;
-    background-color: #dd7513;
+    background: #03a9f4;
 }
 
 .interest ul{
